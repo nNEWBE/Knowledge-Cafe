@@ -1,8 +1,10 @@
+import profile from '../../assets/Profile.svg'
 const Header = () => {
     return (
-      <div>
+      <header className="flex justify-between items-center border-b-2 pb-4">
         <h1 className="text-4xl bg-red-500">Knowledge Cafe</h1>
-      </div>
+        <img src={profile} alt="" />
+      </header>
     );
 };
 
